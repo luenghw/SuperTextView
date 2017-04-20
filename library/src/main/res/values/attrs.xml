@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SuperTextView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textSizeSub" format="dimension" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="iconPadding" format="dimension" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="textColorSub" format="reference|color" />
+        <attr name="textTitle" format="string" />
+        <attr name="textSub" format="string" />
+        <attr name="iconStart" format="reference" />
+        <attr name="iconEnd" format="reference" />
+        <attr name="iconTop" format="reference" />
+        <attr name="iconBottom" format="reference" />
+    </declare-styleable>
+</resources>

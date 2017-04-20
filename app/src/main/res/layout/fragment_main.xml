@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.hoho.supertextview.sample.MainActivity$PlaceholderFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.hoho.supertextview.SuperTextView
+            android:id="@+id/super_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:iconPadding="4dp"
+            app:iconTop="@mipmap/ic_launcher"
+            app:textColor="@android:color/white"
+            app:textColorSub="@android:color/white"
+            app:textSize="18sp"
+            app:textSizeSub="12sp"
+            app:textSub="@string/app_name"
+            app:textTitle="@string/section_format" />
+
+        <com.hoho.supertextview.SuperTextView
+            android:id="@+id/super_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:iconPadding="4dp"
+            app:iconStart="@mipmap/ic_launcher"
+            app:textColor="@android:color/white"
+            app:textColorSub="@android:color/white"
+            app:textSize="18sp"
+            app:textSizeSub="12sp"
+            app:textSub="@string/app_name"
+            app:textTitle="@string/section_format" />
+
+        <com.hoho.supertextview.SuperTextView
+            android:id="@+id/super_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:iconEnd="@mipmap/ic_launcher_round"
+            app:iconPadding="4dp"
+            app:textColor="@android:color/white"
+            app:textColorSub="@android:color/white"
+            app:textSize="18sp"
+            app:textSizeSub="12sp"
+            app:textSub="@string/app_name"
+            app:textTitle="@string/section_format" />
+
+        <com.hoho.supertextview.SuperTextView
+            android:id="@+id/super_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:iconEnd="@mipmap/ic_launcher_round"
+            app:iconPadding="4dp"
+            app:iconStart="@mipmap/ic_launcher"
+            app:textColor="@android:color/white"
+            app:textColorSub="@android:color/white"
+            app:textSize="18sp"
+            app:textSizeSub="12sp"
+            app:textSub="@string/app_name"
+            app:textTitle="@string/section_format" />
+
+
+        <com.hoho.supertextview.SuperTextView
+            android:id="@+id/super_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:iconBottom="@mipmap/ic_launcher"
+            app:iconPadding="4dp"
+            app:textColor="@android:color/white"
+            app:textColorSub="@android:color/white"
+            app:textSize="18sp"
+            app:textSizeSub="12sp"
+            app:textSub="@string/app_name"
+            app:textTitle="@string/section_format" />
+    </LinearLayout>
+</ScrollView>
